@@ -9,7 +9,6 @@ policy = {
   'maxSize': 10000000,
   'container': 'orderdive-uploads',
 }
-print(os.environ.get('FILESTACK_SECRET'))
 
 def gen_credentials(policy, filestack_secret):
   creds = {}
