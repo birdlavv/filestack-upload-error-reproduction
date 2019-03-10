@@ -7,7 +7,7 @@ policy = {
   'expiry': int(time.time()) + 15 * 60,
   'path': '/my-user/',
   'maxSize': 10000000,
-  'container': 'orderdive-uploads',
+  'container': 'user-uploads',
 }
 
 def gen_credentials(policy, filestack_secret):
